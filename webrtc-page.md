@@ -1,7 +1,11 @@
+---
+layout: default
+---
 
-### WebRTC应用开发
+### WebRTC开源方案二次开发：
 
-WebRTC开源方案：Mesh、MCU、SFU: 
+Mesh、MCU、SFU: 
+
 WebRTC 本身提供的是 1 对 1 的通信模型，在 STUN/TURN 的辅助下，如果能实现 NAT 穿越，那么两个浏览器是可以直接进行媒体数据交换的；如果不能实现 NAT 穿越，那么只能通过 TURN 服务器进行数据转发的方式实现通信。目前来看，Google 开源的用于学习和研究的项目基本都是基于 STUN/TURN 的1对1 通信(关于WebRTC的通话原理在之前的文章里面分享过)。
 
 如果你想要通过 WebRTC 实现多对多通信，该如何做呢？
@@ -15,3 +19,5 @@ MCU（Multipoint Conferencing Unit）方案，该方案由一个服务器和多�
 SFU（Selective Forwarding Unit）方案，该方案也是由一个服务器和多个终端组成，但与 MCU 不同的是，SFU 不对音视频进行混流，收到某个终端共享的音视频流后，就直接将该音视频流转发给房间内的其他终端。它实际上就是一个音视频路由转发器。
 
 [转到小店](https://tarogo.tpxip.com/product/webrtc-development-kit-tools/)
+
+[返回](./)
