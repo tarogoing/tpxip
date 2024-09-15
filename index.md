@@ -14,11 +14,11 @@ layout: default
 
 ### [在售产品介绍](https://freeblog.tarogoing.uk/%E5%95%86%E5%93%81%E4%BB%8B%E7%BB%8D)
 
-### [WebRTC开源方案开发](./webrtc-page.html)
+### [WebRTC开源方案开发](./mywebpage/webrtc-page.html)
 
-### [微信小程序开发](./miniprogram.html)
+### [微信小程序开发](./mywebpage/miniprogram.html)
 
-### [云国际服务](./cloudserver.html)
+### [云国际服务](./mywebpage/cloudserver.html)
 
 Copyright 深圳市亚汇讯实业有限公司 版权所有 
 
