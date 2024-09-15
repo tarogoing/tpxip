@@ -2,4 +2,5 @@ title: 深圳亚汇讯
 description: 本网站使用了architect风格
 show_downloads: false
 google_analytics:
+site.github.is_user_page: false
 theme: jekyll-theme-architect
